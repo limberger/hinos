@@ -53,6 +53,29 @@ Lá nas alturas onde estás
 Mi -- nha Mãe lá no Céu
 Dai-me o perdão
 }
+\addlyrics 
+{
+Tu sois a flor mais bela
+Aonde Deus pôs a mão
+Tu sois minha advogada
+Oh! Virgem da Conceição
+Oh! Mãe Divina do coração
+Lá nas alturas onde estás
+Mi -- nha Mãe lá no Céu
+Dai-me o perdão
+}
+\addlyrics 
+{
+Estrela do Universo
+Que me parece um jardim
+Assim como sois brilhante
+Quero que brilhes a mim
+Oh! Mãe Divina do coração
+Lá nas alturas onde estás
+Mi -- nha Mãe lá no Céu
+Dai-me o perdão
+}
+
 harmoniaAa =
 \chordmode
 {
