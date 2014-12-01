@@ -27,6 +27,7 @@ pautaAa =
   c4 e4 g4 | ais2 d4 | d2 c4 | f,2. |
   f4 a4 c4 | c d f | e2. | d2. |
   e4 d c | g ais e | g2. | f2. |
+  c4 f e d2. c4 f e d2
   
    \bar "||"
 }

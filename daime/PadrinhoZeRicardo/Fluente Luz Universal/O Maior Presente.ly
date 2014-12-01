@@ -48,7 +48,60 @@ harmoniaAa =
 {
    \time 4/4
   \partial 4
- 
+  g4:
+  g1:
+  g2:
+  c2:
+  g1:
+  g4:
+  c2:
+  c4:
+  a1:m
+  a2:m
+  d2:m
+  g1:
+  c1:
+  a1:m
+  a2:m
+  d2:m
+  g1:
+  c1:
+
+  a2.:m
+  c4:
+  c2:
+  e2:m
+  e1:m
+  
+  a2.:m
+  c4:
+  c2:
+  g2:
+  g1:
+  
+  g1:
+  g1:
+  g2:
+  c2:
+  
+  g1:
+  g1:
+  c2:
+  
+  a2:m
+  a2:m
+  c2:
+  c2:
+  e2:m
+  
+  g2:
+  g2:
+  g2:
+  g4:
+  c2:
+  
+  
+  
 }
 \bookpart {
   \score {
