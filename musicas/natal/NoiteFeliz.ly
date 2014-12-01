@@ -30,12 +30,12 @@ pautaAa =
    \bar "||"
 }
 pautaBa =
-\relative c'
+\relative c
 {
   \clef bass
   \key c \major
   \time 3/4
-  g4 a4 g4 | e2. | g4 a4 g4 | e2. | d'2 d4 |
+  c4 e4 g4 | c,4 e4 g4 | c,4 f4 g4 | e2. | d'2 d4 |
   b2. | c2 c4 | g2. | a2 a4 | c4 b4 a4 | g4 a4 g4 |
   e2. | e'2 e4 | g4 f4 e4 | d4 e4 d4 | e,2. | d'2 d4 |
   f4 d4 a4 | c2. | c2. | 
@@ -44,6 +44,7 @@ pautaBa =
 }
 \addlyrics
 {
+  \set stanza = #"1."
 Noi te fe liz, noi te fe liz
 Ó sen hor, Deus de amor
 Pobrezinho nasceu em Belém
@@ -53,6 +54,7 @@ Dorme em paz, ó Jesus
 }
 \addlyrics 
 {
+  \set stanza = #"2."
 Noite feliz, noite feliz
 Eis que no ar vem cantar
 Aos pastores os anjos dos céus
@@ -62,6 +64,7 @@ De Jesus, Salvador!
 }
 \addlyrics 
 {
+  \set stanza = #"3."
 Noite feliz, noite feliz
 Ó senhor, Deus de amor
 Pobrezinho nasceu em Belém
@@ -71,6 +74,7 @@ Dorme em paz, ó Jesus
 }
 \addlyrics 
 {
+  \set stanza = #"4."
 Noite feliz, noite feliz
 Eis que no ar vem cantar
 Aos pastores os anjos dos céus
