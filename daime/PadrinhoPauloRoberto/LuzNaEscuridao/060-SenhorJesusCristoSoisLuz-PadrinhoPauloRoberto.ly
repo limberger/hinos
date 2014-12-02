@@ -47,7 +47,7 @@ pautaAa =
   \time 4/4
   \partial 4
   
-  a'4 | d2 e4  d | e d e  fis4 ( | fis2. )  
+  a'4 | d2 e4  d | e d e  fis4 ( | fis2 )  r4
   a,4 | d2 e4  d | e d e  fis4 ( | fis2. ) r4 |
   r2 fis4 fis4 | fis4 fis4   fis4 fis4  a fis2 r4 |
   g4 g g g | g g  fis2 |
