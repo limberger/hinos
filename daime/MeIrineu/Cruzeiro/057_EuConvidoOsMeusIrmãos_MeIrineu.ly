@@ -44,45 +44,45 @@ pautaAa =
 }
 \addlyrics
 { 
- Eu convido os meus irmãos
- Que queiram me acompanhar
- Para nós cantar um pouco
- Nesta Noite de Natal
+ Eu con -- vi -- do_os meus ir -- mãos
+ Que quei -- ram me a -- com -- pa -- nhar
+ Pa -- ra nós can -- tar um pou -- co
+ Nes -- ta Noi -- te de Na -- tal
 }
 \addlyrics
 { 
-Eu convido os meus irmãos
-Para cantar com alegria
-Para nós ir festejar
-A Jesus Filho de Maria
+Eu con -- vi -- do_os meus ir -- mãos
+Pa -- ra can -- tar com a -- le -- gria
+Pa -- ra nós ir fes -- te -- jar
+A Je -- sus Fi -- lho de Ma -- ria
 }
 \addlyrics
 {
-Eu convido os meus irmãos
-Todo aquele que quiser
-Para nós ir festejar
-A Jesus, Maria e José
+Eu con -- vi -- do_os meus ir -- mãos
+To -- do a -- que -- le que qui -- ser
+Pa -- ra nós ir fes -- te -- jar
+A Je -- sus, Ma -- ria e Jo -- sé
 }
 \addlyrics
 {
-Minha Sempre Virgem Maria
-Vós só pode é se alegrar
-Porque todos nós pedimos
-Para Vós nos ajudar
+Mi -- nha Sempre Vir -- gem Ma -- ria
+Vós só po -- de é_se a -- le -- grar
+Por -- que to -- dos nós pe -- di -- mos
+Pa -- ra Vós nos a -- ju -- dar
 }
 \addlyrics
 {
-O sonhar é uma verdade
-Igualmente à luz do dia
-Reparem neste mundo
-O sonho da Virgem Maria
+O so -- nhar é_uma ver -- da -- de
+I -- gual -- men -- te à luz do dia
+Re -- pa -- rem nes -- te mun -- do
+O so -- nho da Vir -- gem Ma -- ria
 }
 \addlyrics
 {
-Meu Divino Senhor Deus
-Vós me dê a santa luz
-Para sempre eu festejar
-O dia que nasceu Jesus
+Meu Di -- vi -- no Se -- nhor Deus
+- Vós me dê a san -- ta luz
+Pa -- ra sem -- pre eu fes -- te -- jar
+O dia que nas -- ceu Je -- sus
 }
 \bookpart {
   \score {
@@ -101,19 +101,19 @@ O dia que nasceu Jesus
   }
 }
 
-\bookpart {
-  \header {instrument=""}
-  \score {
-    \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
-      <<
-        \new ChordNames {\set chordChanges = ##t \harmoniaAa}
-        \new Staff \pautaAa
-      >>
-    }
-    \layout {}
-    \midi {}
-  }
-}
+%%\bookpart {
+%%  \header {instrument=""}
+%%  \score {
+%%    \new StaffGroup {
+%%      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+%%      <<
+%%        \new ChordNames {\set chordChanges = ##t \harmoniaAa}
+%%        \new Staff \pautaAa
+%%      >>
+%%    }
+%%    \layout {}
+%%   \midi {}
+%%  }
+%%}
 
 

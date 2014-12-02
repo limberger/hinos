@@ -13,7 +13,8 @@
   opus=""
   instrument="Acordeom"
   copyright="     "
-  tagline="  "
+  tagline="Flor de Cristo - http://fb.com/flordaconscienciacristica"
+
 }
 
 harmoniaAa =
