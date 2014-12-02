@@ -1,14 +1,14 @@
-\version "2.16.2"
+\version "2.19.15"
 
 \header {
   dedication=""
   title="Serena Luz"
   subtitle="Caminho Coração"
-  subsubtitle=""
+  subsubtitle="38"
   poet=""
   meter=""
   piece=""
-  composer=""
+  composer="Prem Baba"
   arranger="Shoo"
   opus=""
   instrument="Acordeom"
@@ -17,89 +17,66 @@
 }
 
 pautaAa =
-\relative c'
 {
   \clef treble
-  \key c \major
-  \time 3/4
-   \partial 4
-  c4 | f2 a4 | c c d | d2 c4 | e,2. |
-  c4 e4 g4 | ais2 d4 | d2 c4 | f,2. |
-  f4 a4 c4 | c d f | e2. | d2. |
-  e4 d c | g ais e | g2. | f2. |
+  \key d \major
+  \time 4/4
+  \partial 2.
+  a'4  d''4 cis''4 | a'1 | r4  {\key c \major { ces''4 }}  a'4 d'4 | fis'1  | r4 b4  d'4 cis'4  | a1 |
+  r4 e'8 e'8 b4 d'4 | fis'1 | r4 b4 d'4 cis'4 | a1 | e'8 e'8 b4 cis'4 d'1
   
-   \bar "||"
+  \bar "||"
 }
 \addlyrics
 {
-Deus te2  sal4"ve, oh!"4 Lu a | Bra -- an -- ca2.
-Da luz tão pra2 -- te -- a2 -- a -- da
-Tu sois mi -- nha Pro -- te -- to -- ra
-De Deus tu sois es -- ti -- ma -- da
-Oh! Mãe Divina do coração
-Lá nas alturas onde estás
-Mi -- nha Mãe lá no Céu
-Dai-me o perdão
-
+  I lu mi nou e cla re ou,
+  Di vi no Deus com seu res plen dor
+  Lá das al turas traz o seu fres cor
 }
-\addlyrics 
+\addlyrics
 {
-Das flores do meu país
-Tu sois a mais delicada
-De todo meu coração
-Tu sois de Deus estimada
-Oh! Mãe Divina do coração
-Lá nas alturas onde estás
-Mi -- nha Mãe lá no Céu
-Dai-me o perdão
+  I lu mi nou e cla re ou,
+  Di vi no Deus com seu res plen dor
+  Do co ra ção ve em o fres cor
 }
-\addlyrics 
+\addlyrics
 {
-Tu sois a flor mais bela
-Aonde Deus pôs a mão
-Tu sois minha advogada
-Oh! Virgem da Conceição
-Oh! Mãe Divina do coração
-Lá nas alturas onde estás
-Mi -- nha Mãe lá no Céu
-Dai-me o perdão
+  Di vi na Mãe de ca ri dade,
+  Mos tra_a bon dade acal man do a dor
+  Flo rin do_os cam_pos co om_ seu a mor 
 }
-\addlyrics 
+\addlyrics
 {
-Estrela do Universo
-Que me parece um jardim
-Assim como sois brilhante
-Quero que brilhes a mim
-Oh! Mãe Divina do coração
-Lá nas alturas onde estás
-Mi -- nha Mãe lá no Céu
-Dai-me o perdão
+  Pe di con for_to e_en ten di men_to,
+  Cla reou a luz de conhe ci men to
+  Em concen tra ção no Deus ver da dei_ro
+}
+\addlyrics
+{
+  Vou re ce bendo e_agra de cen do,
+  A sere na luz aos pés do_Cru zei ro
+  Com a uni ão de quem humil de veio
 }
 
 harmoniaAa =
 \chordmode
 {
-  \time 3/4
-  \partial 4
-
-  f4:  |
-  f2.: |
-  f2.: |
-  c2.: |
-  c2.: |
-  c2.: |
-  bes2.: |
-  d2.:m |
-  f2.: |
-  f2.: |
-  f2.: |
-  c2.: |
-  d2.:m |
-  c2.: |
-  c2.: |
-  c2.: |
-  f2.: |
-
+  \time 4/4
+  \partial 2.
+  
+  a1:  |
+  a1:  |
+  a1:  |
+  d1:  |
+  g1:  |
+  a1:  |
+  a1:  |
+  d1:  |
+  g1:  |
+  a1:  |
+  g1:  |
+  d1:  |
+  
 }
 
 \bookpart {
@@ -113,7 +90,7 @@ harmoniaAa =
     }
     \layout {}
     \midi {}
-
+    
   }
 }
 
