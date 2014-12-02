@@ -13,7 +13,7 @@
   opus=""
   instrument="Acordeom"
   copyright="     "
-  tagline="  "
+  tagline="Flor de Cristo - http://fb.com/flordaconscienciacristica"
 }
 harmoniaAa =
 \chordmode
@@ -23,63 +23,67 @@ harmoniaAa =
   \partial 2
   
   r2 |
-  b2:m fis2:  |
-  b1:m  |
-  b2:m d2: |
-  e1:m  |
-  e1:m  |
-  b1:m  |
-  fis1:7  |
-  b2:m r2  |
+  g2:m d2:  |
+  g1:m  |
+  g2:m bes2: |
+  c1:m  |
+  c1:m  |
+  g1:m  |
+  d1:7  |
+  g2:m r2  |
 }
 pautaAa =
 \relative c' {
   \clef treble
-  \key g \major
+  \key g \minor
   \time 4/4
-  \partial 4.
+  \partial 2
   
-  b'8 b c | d4 a d g | b g2 e8 e8 | e4 c c d  | e2. e8 e8 | 
-  a4 a a  b | a g2 b,8 e8 | d4 c a b | g2( g8 ) |
-  
+  bes''4 g | bes g d bes | g2  bes'4  g | bes g8 g8 bes,4 d | c2. c8 c8  | c4 g' g a | bes g d bes | d c a bes | g2 r2| 
   \bar "||"
 }
 \addlyrics
 { 
-  San -- ta Es  -- tre -- la que me gui -- a
-  Vós me dê a San -- ta Luz
-  Os três Reis do O -- ri -- en -- te
-  Que vi -- si -- ta -- ram, Je -- sus
+ Eu convido os meus irmãos
+ Que queiram me acompanhar
+ Para nós cantar um pouco
+ Nesta Noite de Natal
 }
 \addlyrics
 { 
-Vi -- va Deus lá nas al -- tu -- ras
-Vi -- va a Noi -- te de Na -- tal
-Vi -- va o do -- no des -- te dia
-Que nós va -- mos fes -- te -- jar
+Eu convido os meus irmãos
+Para cantar com alegria
+Para nós ir festejar
+A Jesus Filho de Maria
 }
 \addlyrics
 {
-- - Já fa -- zem mui -- tos a -- nos
-- Que meu Je -- sus nas -- ceu
-Va -- mos to -- dos com_a -- le -- gri -- a
-Fes -- te -- jar ao Se -- nhor Deus
+Eu convido os meus irmãos
+Todo aquele que quiser
+Para nós ir festejar
+A Jesus, Maria e José
 }
 \addlyrics
 {
-- - Meu Di -- vi -- no Se -- nhor Deus
-- A Vós eu vou pe -- dir
-Vós nos dê_o Vos -- so con -- for -- to
-Pa -- ra to -- dos nós se -- guir
+Minha Sempre Virgem Maria
+Vós só pode é se alegrar
+Porque todos nós pedimos
+Para Vós nos ajudar
 }
 \addlyrics
 {
-- - A Sem -- pre Vir -- gem Ma -- ria
-É quem vem nos en -- si -- nar
-Pa -- ra nós can -- tar com a -- mor
-Nes -- ta Noi -- te de Na -- tal
+O sonhar é uma verdade
+Igualmente à luz do dia
+Reparem neste mundo
+O sonho da Virgem Maria
 }
-
+\addlyrics
+{
+Meu Divino Senhor Deus
+Vós me dê a santa luz
+Para sempre eu festejar
+O dia que nasceu Jesus
+}
 \bookpart {
   \score {
     \new StaffGroup {
