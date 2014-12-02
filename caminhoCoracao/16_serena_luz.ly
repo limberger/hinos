@@ -22,8 +22,8 @@ pautaAa =
   \key d \major
   \time 4/4
   \partial 2.
-  a'4  d''4 cis''4 | a'1 | r4  {\key c \major { ces''4 }}  a'4 d'4 | fis'1  | r4 b4  d'4 cis'4  | a1 |
-  r4 e'8 e'8 b4 d'4 | fis'1 | r4 b4 d'4 cis'4 | a1 | e'8 e'8 b4 cis'4 d'1
+  a'4  d''4 cis''4 | a'1 | r4   b'4   a'4 d'4 | fis'1  | r4 b4  d'4 cis'4  | a1 |
+  r4 e'8 e'8 b4 d'4 | fis'1 | r4 b4 d'4 cis'4 | a1 | r4 e'8 e'8 b4 cis'4 | d'1
   
   \bar "||"
 }
