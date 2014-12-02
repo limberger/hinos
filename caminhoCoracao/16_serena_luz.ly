@@ -1,5 +1,5 @@
 \version "2.19.15"
-
+\include "predefined-guitar-fretboards.ly"
 \header {
   dedication=""
   title="Serena Luz"
@@ -14,6 +14,28 @@
   instrument="Acordeom"
   copyright="     "
   tagline="  "
+}
+
+harmoniaAa =
+\chordmode
+{
+  \tempo 4=60
+  \time 4/4
+  \partial 2.
+  
+  a2.:  |
+  a1:  |
+  a1:  |
+  d1:  |
+  g1:  |
+  a1:  |
+  a1:  |
+  d1:  |
+  g1:  |
+  a1:  |
+  g1:  |
+  d1:  |
+  
 }
 
 pautaAa =
@@ -58,34 +80,17 @@ pautaAa =
   Com a uni ão de quem humil de veio
 }
 
-harmoniaAa =
-\chordmode
-{
-  \time 4/4
-  \partial 2.
-  
-  a1:  |
-  a1:  |
-  a1:  |
-  d1:  |
-  g1:  |
-  a1:  |
-  a1:  |
-  d1:  |
-  g1:  |
-  a1:  |
-  g1:  |
-  d1:  |
-  
-}
 
 \bookpart {
   \score {
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
+        \new FretBoards {\set chordChanges = ##t \harmoniaAa}
+        
         \new ChordNames {\set chordChanges = ##t \harmoniaAa}
         \new Staff \with {instrumentName = #"" shortInstrumentName = #" "} \pautaAa
+       
       >>
     }
     \layout {}
