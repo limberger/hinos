@@ -24,9 +24,9 @@ harmoniaAa =
   \time 4/4
   \partial 2.
   
-  a2.:  |
+  d2.:  |
   a1:  |
-  a1:  |
+  g1:  |
   d1:  |
   g1:  |
   a1:  |
