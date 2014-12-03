@@ -3,8 +3,8 @@
 \header {
   dedication=""
   title="Senhor Jesus Cristo Sois Luz"
-  subtitle="060"
-  subsubtitle=""
+  subtitle="Luz na Escuridão"
+  subsubtitle="060"
   poet=""
   meter=""
   piece=""
@@ -24,10 +24,10 @@ harmoniaAa =
   
   d4: |
   d1:  |
-  d1:  |
+  d2.: b4:m  |
   b2.:m   d4:  |
   d1:  |
-  d1:  |
+  d2.: b4:m  |
   b2.:m  r4 |
   d1: |
   d1: |
@@ -38,7 +38,7 @@ harmoniaAa =
   d1: |
   d1: |
   g1: |
-  g2: a4: |
+  g2: d4: a4: |
 }
 pautaAa =
 \relative c' {
@@ -49,9 +49,9 @@ pautaAa =
   
   a'4 | d2 e4  d | e d e  fis4 ( | fis2 )  r4
   a,4 | d2 e4  d | e d e  fis4 ( | fis2. ) r4 |
-  r2 fis4 fis4 | fis4 fis4   fis4 fis4  a fis2 r4 |
+  r2 fis4 fis4 | fis4 fis4   g fis4  a fis2 r4 |
   g4 g g g | g g  fis2 |
-  fis,4 fis4 fis4 fis4  | fis4 fis4  a fis4 ( | fis4 ) r2. |
+  fis4 fis4 fis4 fis4  | g fis4  a fis4 ( | fis4 ) r2. |
   g4 g g g | g g  fis2 |
   
   \bar "||"

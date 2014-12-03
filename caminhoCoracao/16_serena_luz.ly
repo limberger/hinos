@@ -100,19 +100,19 @@ pautaAa =
   }
 }
 
-\bookpart {
-  \header {instrument=""}
-  \score {
-    \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
-      <<
-        \new ChordNames {\set chordChanges = ##t \harmoniaAa}
-        \new Staff \pautaAa
-      >>
-    }
-    \layout {}
-    \midi {}
-  }
-}
+%%\bookpart {
+%%  \header {instrument=""}
+%%  \score {
+%%    \new StaffGroup {
+%%      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+%%      <<
+%%        \new ChordNames {\set chordChanges = ##t \harmoniaAa}
+%%        \new Staff \pautaAa
+%%      >>
+%%    }
+%%    \layout {}
+%%    \midi {}
+%%  }
+%%}
 
 

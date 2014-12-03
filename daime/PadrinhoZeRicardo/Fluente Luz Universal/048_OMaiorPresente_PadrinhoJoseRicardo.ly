@@ -1,8 +1,10 @@
 \version "2.14.2"
 \header {
   title="O MAIOR PRESENTE"
-  subtitle="marcha"			     
+  subtitle="Luz Fluente Universal"
+  subsubtitle="048" arranger = "Shoo" instrument = "marcha" lastupdated = \date   
   composer="Ben Hershy"
+  tagline="Flor de Cristo - http://fb.com/flordaconscienciacristica"
 }
 pautaAa  =
 \relative c'
@@ -22,7 +24,7 @@ pautaAa  =
    g2 g4 f | e d c e c2 a4 r2 |
    g'2 g4 f | e  d c e2 |
    a,4 b c b c a g c e
-   c4 g' g g f e d e c}
+   c4 g' g g f e d e c ( c2. ) }
 }
 \addlyrics 
 {
@@ -42,6 +44,29 @@ Da paz, da pu -- re -- za e do amor
 
 
 }
+%%48- O MAIO PRESENTE
+%%
+%%G7       AM                   G7
+%%EU DESEJO PRA VOCÊ
+%%   AM                  C
+%%E PEÇO PARA MIM
+%%             C                          AM
+%%ESTAR SEMPRE SOB O MANTO
+%%    G7                    C
+%%DA VIRGEM MARIA
+%%
+%%AM                                      C
+%%ASSIM SELO A NOSSA UNIÃO
+%%AM                                     G7
+%%NADA MAIS HÁ PRA DIZER
+%%G7                                                         AM 
+%%TUDO FICA ASSIM COMO DEUS QUER
+%% G7                               C
+%%TUDO FICA MUITO BEM
+%%AM                                C    
+%%SOB O MANTO DA RAINHA
+%%         G7                                      C
+%%DA PAZ DA PUREZA E DO AMOR
 
 harmoniaAa =
 \chordmode
@@ -56,19 +81,19 @@ harmoniaAa =
   g4:7
   a2.:m |
   a4:m 
-  c2: r4 |
+  c2: c4: |
   c1: |
-  a1:m |
-  a4:m
-  g2:7 
-  d4:m
+  c2:
+  a2:m |
+  a1:m
+  g1:7 |
   c1: |
-  c1: |
-  a1:m |
-  a4:m
-  g2:7 
-  d4:m
-  c1: |
+  c2:
+  a2:m |
+  a1:m
+  g1:7 |
+  
+  
 
   a1:m  | 
   a2.:m  
@@ -76,9 +101,19 @@ harmoniaAa =
   c1: |
   a1:m |
   a1:m |
-  g1:7  
-  
-  
+  g1:7 |  
+  g1:7 |  
+  g1:7 |  
+  g2:7
+  a2:m |
+  g1:7 |  
+  g1:7 |  
+  c2:   a2:m |
+  a1:m |
+  c1: |
+  g1:7 |
+  g2.:7
+  c4: | c1:
 }
 \bookpart {
   \score {
@@ -96,27 +131,4 @@ harmoniaAa =
 }
 
 
-48- O MAIO PRESENTE
-
-G7       AM                   G7
-EU DESEJO PRA VOCÊ
-   AM                  C
-E PEÇO PARA MIM
-             C                          AM
-ESTAR SEMPRE SOB O MANTO
-    G7                    C
-DA VIRGEM MARIA
-
-AM                                      C
-ASSIM SELO A NOSSA UNIÃO
-AM                                     G7
-NADA MAIS HÁ PRA DIZER
-G7                                                         AM 
-TUDO FICA ASSIM COMO DEUS QUER
- G7                               C
-TUDO FICA MUITO BEM
-AM                                C    
-SOB O MANTO DA RAINHA
-         G7                                      C
-DA PAZ DA PUREZA E DO AMOR
 
