@@ -13,30 +13,33 @@
   opus=""
   instrument="Acordeom"
   copyright="     "
-  tagline="  "
+  tagline="Flor de Cristo - http://fb.com/flordaconscienciacristica"
 }
 
 pautaAa =
-\relative c''
+\relative c'
 {
   \clef treble
   \key c \major
   \time 4/4
-   \partial 4 
+   \partial 2 
    \repeat volta 3 {
-  e4 | g4 g4  c4 c4 | g2  a4 g4 | e4 e4 d4 c4 | e2 r4
-  e4 | g4 g4  c4 c4 | g2  a4 g4 | e4 e4 d4 c4 | e2 r4 
-  g4  | g4 e2     e8 e8 | c4 a4  d4 d4 | g4 g4 e4 e4 | d4 d4 c2 | 
-  r2 r4  g'4 | g4 e2     e8 e8 | c4 a4  d4 d4 | g4 g4 e4 e4 d4 d4 c2
+  e2 | g4 g8  a8 g8 f8 e8  d8 |  c8 e4  c2 r4 | r2 
+  e2 | g4 g8  a8 g8 f8 e8  d8 |  c8 e2   r2 | 
+  
+  a,2 c4 c8 d c b4 c e a,2 r4 |
+  e'8 e8 e8 f4 e d e8 d8 d2 
+  d4 d8 c b c d4 e4 | c2
     }
    \bar "||"
 }
 \addlyrics
 {
 Li vre eu vou se guin do meu ca mi nho
-Li vre ninguem po de me se gu rar
-Li vre estou e pro te gi do
-Meu Mes tre sem pre a me gui ar
+Li vre nin -- guem po -- de me se -- gu -- rar
+Li vre es -- tou mas nao so -- zi -- nho
+Li vre es -- tou e pro te gi do
+Meu Mes tre sem pre a_me gui ar
 }
 \addlyrics
 {
@@ -71,52 +74,27 @@ harmoniaAa =
 \chordmode
 {
   \time 4/4
-  \partial 4
+  \partial 2
 
-  c4:  |
+  c2:  |
   c2: 
   c2: |
-  c2: 
-  c4: 
-  f4:|
-  g4:
-  g4:
+  c8:
+  a4:m
+  c2: c8: c2:
+  a2.:m |
+  a2:m a4:m a4:m
+  c2: c4: |
+  a1:m |
+  c4: a2.:m |
+  a1:m |
+  a2.:m c4: |
+  a2:m 
   c2: |
-  c2:
-  c4:
-  c4: |
-  c2: 
-  c2: |
-  c2: 
-  c4: 
-  f4:|
-  g4:
-  g4:
-  c2: |
-  c2:
-  c4:
-  c4: |
-  c4:
-  c4:
-  c4:
-  a8:m 
-  f8: |
-  f1: |
-  f4:
-  g2:
-  g4: |
   c1: |
-    c4:
-  c4:
-  c4:
-  a8:m 
-  f8: |
-  f1: |
-  f4:
-  g2:
-  g4:
-  c1:
-
+  c8: g8: g2.: |
+  g1: | c2
+ 
 }
 
 \bookpart {
@@ -134,19 +112,19 @@ harmoniaAa =
   }
 }
 
-\bookpart {
-  \header {instrument=""}
-  \score {
-    \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
-      <<
-        \new ChordNames {\set chordChanges = ##t \harmoniaAa}
-        \new Staff \pautaAa
-      >>
-    }
-    \layout {}
-    \midi {}
-  }
-}
+%%\bookpart {
+%%  \header {instrument=""}
+%%  \score {
+%%    \new StaffGroup {
+%%      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+%%      <<
+%%        \new ChordNames {\set chordChanges = ##t \harmoniaAa}
+%%        \new Staff \pautaAa
+%%      >>
+%%    }
+%%    \layout {}
+%%    \midi {}
+%%  }
+%%}
 
 
