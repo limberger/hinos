@@ -20,8 +20,8 @@ harmoniaAa =
 {
   \tempo 4=60
   \time 4/4
-  \partial 4
-   d1:m c1: d1:m a1:m
+   d1:m | e1:m |  g1: b:m d8:m a1:m |
+   
    d1:m bes1: f1: a1:m
    d1:m c1: f1: a1:m
   
@@ -31,19 +31,17 @@ pautaAa =
   \clef treble
   \key c \major
   \time 4/4
-  \partial 4
   
-  e4^"repetir 3 vezes cada estrofe" | g2. e4 | g2 g4 g | g4. e8 a4. f8 | e2. 
-  c4 | e c e c | a2 a4 a4 | a a b c | d2. d4 | d4. d8 e4. f8 | g2.
-  
+  a'4  g2 a4 | e2  a4 a4 b4 b4  c4 d | b4.
+   g8 e'4 e4  | d4. d8 c8 c8 d c8 b4 a8 g2 a2 g4 b4 a1
   \bar "||"
 }
 \addlyrics
 { 
-  Força da paz
-  Cresça sempre sempre mais
-  Que reine a paz e acabem as fronteiras
-  Nos somos um
+  For ça da paz
+  Cres ça sem pre sem pre mais
+  Que rei ne_a paz e aca bem as fron te i ras
+  Nos so mos um
 }
 
 
@@ -53,10 +51,8 @@ pautaAa =
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
         \new FretBoards {\set chordChanges = ##t \harmoniaAa}
-        
         \new ChordNames {\set chordChanges = ##t \harmoniaAa}
         \new Staff \with {instrumentName = #"" shortInstrumentName = #" "} \pautaAa
-       
       >>
     }
     \layout {}
