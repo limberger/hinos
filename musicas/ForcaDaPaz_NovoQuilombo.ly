@@ -20,11 +20,9 @@ harmoniaAa =
 {
   \tempo 4=60
   \time 4/4
-   d1:m | e1:m |  g1: b:m d8:m a1:m |
-   
-   d1:m bes1: f1: a1:m
-   d1:m c1: f1: a1:m
-  
+   d4:m  c4:   d4:m a4:m | d2:m bes2: f2: a:m |
+   d1:m c4.: f8: f4: a8:m (a2:m )
+   d2:m c2: d1:m
 }
 pautaAa =
 \relative c' {
@@ -32,7 +30,7 @@ pautaAa =
   \key c \major
   \time 4/4
   
-  a'4  g2 a4 | e2  a4 a4 b4 b4  c4 d | b4.
+  a'4  g4 a4 | e4  a4 a4 b4 b4  c4 d | b4.
    g8 e'4 e4  | d4. d8 c8 c8 d c8 b4 a8 g2 a2 g4 b4 a1
   \bar "||"
 }
