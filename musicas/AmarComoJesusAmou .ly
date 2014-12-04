@@ -21,46 +21,36 @@ pautaAa =
 \relative c'
 {
   \clef treble
-  \key c \major
+  \key ees \major
   \tempo 4 = 80
   \time 4/4
-  \repeat volta 2 { e d c d8 e | f4 e d e8 f | g4 f e f8 g | } \alternative { { a4 g f e8 f | d1 } {a'4 g f g8 a  } } |
-  b1 | c4 b a g8 a | b4 a g f8 g | a4 g f e8 f | d1 | d8 e f g e4 d | e8 f g a f4 e | fis8 g a b g4 fis4 | b1 |
-  c4 b a g8 a | b4 a g f8 g | 
-  a4 g f e8 f | d2 d4 e | c1 
+  \partial 8
+  bes8  | ees8 ees ees ees f ees d c | d2. r8 bes8 | d d d ees f d c bes | ees2. r8 bes8 |
+  ees8 ees ees ees f ees d c | d2. r8 bes8 | d d d ees f d c bes | ees2. r8 bes8 | ees ees ees ees ees ees f g | 
+  c,4 f aes c | bes8 ees bes g aes4 d, | ees2 r1 bes1 | bes'8 bes bes bes aes g4 c8 ( | c2. ) r8 c8 |
+  aes aes aes aes g f4 bes8 ( | bes2. ) r8 bes8 | g g g g f ees4 d8 ( | d2. )  r8 bes8 | d d d d c c4 bes8 ( |
+  bes2. ) r8 bes8 | \repeat volta 2 { bes'8 bes bes bes bes c4 bes8 ( | bes8 ) aes4. ( aes4 ) r8 c8 | aes aes aes aes aes bes4 aes ( |
+  aes8 ) g4. ( g4 ) bes | g8 g g g g aes4 g8 ( | g8 ) f f f f g4  aes8 } 
+  \alternative { { ( aes8 ) f f f ees d4 bes'8 ( bes2. ) r8 bes,8 } { ( aes8 ) f f f ees d4 ees"To Coda"  } }
+  }
    \bar "||"
 }
 \addlyrics
 {
   \set stanza = #"1."
-  Que -- ro ver vo -- cê nao cho -- rar
-  Nao o -- lhar pra tras 
-  Nem se arre -- pen -- der do que faz
-  
-  re -- sis -- tir -- e -- sor -- rir
-  Se vo -- ce  pode ser as -- sim
-  Tao e nor me as sim eu vou crer
-  Que o Na tal_e xis te que nin guem e tris te
-  Que no mun do_ha sempre a mor
-  Bom Na tal, um fe liz Na tal
-  Muito a -- mor e paz
-  Pra vo -- ces Pra vo -- ces
-  
+  Ho je uma cri an ça me pa rou 
 }
-\addlyrics
-{
-  \set stanza = #"2."
-  Que -- ro ver o a -- mor cres -- cer
-  Mas se a_dor nas -- cer
-  Vo -- ce
-}
+
 harmoniaAa =
 \chordmode
 {
   \time 4/4
-  % Noite Feliz  
-  c1: | d:m | e:m | f: | g:7 |
-  f: | g: | f: |  e:m | d:m | g: | e:m | d:m | b:7 | e:m | f: | e:m | d:m | g: | c:
+  \partial 8
+  r8 |
+  ees1: | bes: | bes: | ees: | 
+  ees: | bes:  | bes: | ees: | ees: |
+  aes2: f:m | ees: bes: | ees1: | ees: | aes: 
+  
 }
 \bookpart {
   \score {
